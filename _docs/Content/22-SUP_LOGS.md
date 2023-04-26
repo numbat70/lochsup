@@ -38,4 +38,4 @@ This is for:
 
 Use the [Learning Form](https://forms.gle/XBFcrvbguvrJfS7a7) to log these
 
-**[Continue to Covid Policy](/lochsup/Content/28-SUP_SMS_COVID/)**
+**[Continue to Validation Quiz](/lochsup/Content/29-SUP_SMS_Quiz/)**
