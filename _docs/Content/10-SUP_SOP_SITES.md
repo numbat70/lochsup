@@ -38,7 +38,7 @@ Date: 30th Sept 2020
 - When assessing wind, it is likely that a lighter NE wind will cancel a session, 10kts gusts or above, than would be the case with a SW wind.
 - Westerly wind can cause a deceptively calm shore as the hills behind you are sheltering the near shore BUT it will get windy after 50 metres offshore.
 - When operating in Westerly or North Westerly winds, keep strict zoning to hold water users with 50metres of the shore near the visitors centre or compound (Nw Shoreline)
-Easterly or North Easterly winds blow directly onto the shore that we launch from. You should not operate when the wind, (now and forecast), is above 5knots
+Easterly or North Easterly winds blow directly onto the shore that we launch from. You should not operate when E or NE wind, (now and forecast), is above 10knots
 
 Operational Wind Limits by Wind Direction:
 ![Wind Limits for SUP](https://numbat70.github.io/clyde/Content/SUPwind.png "Wind Limits for SUP")
