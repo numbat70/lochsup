@@ -20,6 +20,7 @@ Date: 30th Sept 2020
    - Fishing Lines, lures and hooks
    - Lilly pads and reed beds
    - Shallow areas ( near shore and the River Calder's mouth)
+   - Stones (submerged and not visible)
    - Other floating debris that may have been washed into the loch or abandoned by other water users
 
 ### Fog
