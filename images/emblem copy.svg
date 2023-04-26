@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1677px" height="1667px" viewBox="0 0 1677 1667" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Loch SUP V3@1x</title>
+    <g id="Loch-SUP-V3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#FF0000" cx="837" cy="835" r="813"></circle>
+        <circle id="Oval-Copy-2" stroke="#FFFFFF" stroke-width="24" cx="837.5" cy="835.5" r="444.5"></circle>
+        <rect id="Rectangle" fill="#FF0000" x="88" y="709" width="1496" height="253"></rect>
+        <circle id="Oval-Copy" stroke="#FFFFFF" stroke-width="28" transform="translate(837.500000, 835.500000) scale(-1, 1) translate(-837.500000, -835.500000) " cx="837.5" cy="835.5" r="749.5"></circle>
+        <text id="LOCHWINNOCH" fill="#FFFFFF" fill-rule="nonzero" font-family="TsukuARdGothic-Bold, Tsukushi A Round Gothic" font-size="120" font-weight="bold">
+            <tspan x="681.66" y="822">LOCHWINNOCH</tspan>
+        </text>
+        <text id="LARGS" fill="#FFFFFF" fill-rule="nonzero" font-family="TsukuARdGothic-Bold, Tsukushi A Round Gothic" font-size="120" font-weight="bold">
+            <tspan x="435.14" y="1058">LARGS</tspan>
+        </text>
+        <line x1="92.5" y1="692.5" x2="1577.5" y2="692.5" id="Line" stroke="#FFFFFF" stroke-width="35"></line>
+        <line x1="97.5" y1="978.5" x2="1577.5" y2="978.5" id="Line-Copy-4" stroke="#FFFFFF" stroke-width="35"></line>
+        <text id="LOCH-SUP" font-family="TsukuARdGothic-Bold, Tsukushi A Round Gothic" font-size="260" font-weight="bold" fill="#FFFFFF">
+            <tspan x="153" y="934">LOCH SUP</tspan>
+        </text>
+        <text id="EST-2017" font-family="TsukuARdGothic-Bold, Tsukushi A Round Gothic" font-size="100" font-weight="bold" fill="#FFFFFF">
+            <tspan x="612" y="1110">EST 2017</tspan>
+        </text>
+        <path d="M751.334448,675.954093 L817.839737,675.954093 C817.839737,715.186393 817.839737,708.227589 817.839737,655.07768 C817.839737,622.902728 815.121916,616.900468 837.619344,616.900468 C860.116772,616.900468 857.73127,619.392919 857.73127,655.07768 C857.73127,708.227589 857.73127,715.186393 857.73127,675.954093 L923.416086,675.954093 L923.416086,564.054278 L938.631457,554.11472 L938.631457,478.954093 L898.505235,478.954093 L898.505235,508.494893 L857.73127,508.494893 L857.73127,478.954093 L817.839737,478.954093 L817.839737,508.494893 L776.872389,508.494893 L776.872389,478.954093 L736.607231,478.954093 L736.607231,554.11472 L751.334448,561.29621 L751.334448,675.954093 Z" id="Path" fill="#FFFFFF"></path>
+        <rect id="Rectangle" fill="#FF0000" x="777" y="532" width="42" height="42" rx="8"></rect>
+        <rect id="Rectangle-Copy" fill="#FF0000" x="857" y="532" width="42" height="42" rx="8"></rect>
+    </g>
+</svg>
