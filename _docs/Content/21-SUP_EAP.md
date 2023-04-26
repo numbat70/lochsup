@@ -20,7 +20,7 @@ The EAP contains contact details as well as Location details (described and anno
 
 
 - **[Lochwinnoch Emergency Action Plan (EAP)](/lochsup/Content/EAP.pdf)**
-- **[Lochwinnoch Danger Areas map](/lochsup/danger_areas_2021.pdf)**
+- **[Lochwinnoch Danger Areas map](/lochsup/danger_areas_2023.pdf)**
 
 
 
