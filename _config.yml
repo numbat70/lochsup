@@ -10,7 +10,7 @@ show_full_navigation: true
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /lochsupfavicon.png
-description: Loch SUP Toolkit
+description: Loch SUP Toolkit 
 author:
   name:
   email:
