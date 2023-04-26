@@ -41,6 +41,6 @@ Date: 30th Sept 2020
 Easterly or North Easterly winds blow directly onto the shore that we launch from. You should not operate when E or NE wind, (now and forecast), is above 10knots
 
 Operational Wind Limits by Wind Direction:
-![Wind Limits for SUP](https://numbat70.github.io/clyde/Content/SUPwind.png "Wind Limits for SUP")
+![Wind Limits for SUP](https://numbat70.github.io/lochsup/Content/SUPwind.png "Wind Limits for SUP")
 
-**[Continue to Roles](/clyde/Content/11-SUP_SOP_Roles/)**
+**[Continue to Roles](/lochsup/Content/11-SUP_SOP_Roles/)**

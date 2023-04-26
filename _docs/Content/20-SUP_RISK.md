@@ -10,7 +10,7 @@ order: 20
 - Dynamic (need to be assessed on the day and continuously during the activity)
 
 ## Levels of Risk
-![Risk Matrix](https://numbat70.github.io/clyde/Content/risks.png "Risk Matrix")
+![Risk Matrix](https://numbat70.github.io/lochsup/Content/risks.png "Risk Matrix")
 
 
 
@@ -87,4 +87,4 @@ Hazard | Who | Severity & Consequences (Potential) | ControlMeasure
 **Environment** <br>Unexpectedly poor weather  | All | Low initial severity if caught quickly. Raising severity if unresolved.  |  Instructor to maintaina constant watch on weather conditions and curtail the session before it becomes a problem. Make students aware in onshore demo that this may happen.
   |  |  |  
 
-**[Continue to EAP](/clyde/Content/21-SUP_EAP/)**  
+**[Continue to EAP](/lochsup/Content/21-SUP_EAP/)**  

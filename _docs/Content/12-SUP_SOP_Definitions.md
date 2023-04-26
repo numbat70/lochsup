@@ -22,4 +22,4 @@ VHF | Very High Frequency (Radio)
 |
 
 
-**[Continue to Risk](/clyde/Content/20-SUP_RISK/)**
+**[Continue to Risk](/lochsup/Content/20-SUP_RISK/)**

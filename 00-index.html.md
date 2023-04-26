@@ -1,5 +1,5 @@
 ---
-title: Welcome to the Clyde Windsurfing & SUP Toolkit
+title: Welcome to the Loch SUP Toolkit
 layout: article
 ---
 

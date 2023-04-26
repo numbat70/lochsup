@@ -24,8 +24,8 @@ Final
 - 1 race of 6 racers
 - 3 laps for final race
 
-![Technical Race Course](https://numbat70.github.io/clyde/Content/technical.png)
+![Technical Race Course](https://numbat70.github.io/lochsup/Content/technical.png)
 
 
 
-**[Continue to xxx](/clyde/Content/101_EVENT_SUP_TECHNICAL)**
+**[Continue to xxx](/lochsup/Content/101_EVENT_SUP_TECHNICAL)**

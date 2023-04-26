@@ -61,4 +61,4 @@ The measures above will hopefully be relaxed as soon as government restrictions 
 
 
 
-**[Continue to Validation Quiz](/clyde/Content/29-SUP_SMS_Quiz/)**
+**[Continue to Validation Quiz](/lochsup/Content/29-SUP_SMS_Quiz/)**

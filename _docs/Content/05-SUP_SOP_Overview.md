@@ -5,7 +5,7 @@ order: 5
 ---
 Date: 30th Sept 2020
 
-These procedures cover the delivery of Stand Up Paddle-board training and related activities by Clyde Windsurfing BSUPA School.
+These procedures cover the delivery of Stand Up Paddle-board training and related activities by Loch SUP: BSUPA School.
 
 
 ## The School
@@ -34,4 +34,4 @@ These procedures cover the delivery of Stand Up Paddle-board training and relate
 - If a customer cancels with 24hours or greater notice, we will offer a full refund or alternative date (Customer to Choose)
 - If a customer cancels with less than 48 hours policy then we will offer an alternative date.
 
-**[Continue to Courses](/clyde/Content/06-SUP_SOP_Courses/)**
+**[Continue to Courses](/lochsup/Content/06-SUP_SOP_Courses/)**
