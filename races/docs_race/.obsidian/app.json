@@ -1,0 +1,21 @@
+{
+  "useMarkdownLinks": true,
+  "legacyEditor": false,
+  "livePreview": false,
+  "spellcheck": true,
+  "newLinkFormat": "relative",
+  "showUnsupportedFiles": true,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 64
+  },
+  "alwaysUpdateLinks": true,
+  "autoPairBrackets": false,
+  "autoPairMarkdown": false,
+  "strictLineBreaks": true,
+  "promptDelete": false,
+  "attachmentFolderPath": "files",
+  "trashOption": "local"
+}
