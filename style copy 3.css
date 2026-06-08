@@ -1,0 +1,402 @@
+/* --- Global Resets & Variables --- */
+:root {
+    --primary-color: #0056b3;
+    --text-color: #333;
+    --bg-light: #f8f9fa;
+    --border-color: #eceff1;
+    --max-width: 1200px; /* Comfortably fits all 6 horizontal links */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: #ffffff;
+}
+
+.container {
+    width: 90%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* --- Thin Black Header & Navigation --- */
+.site-header {
+    background: #111; /* Sleek pitch black bar */
+    padding: 12px 0;   /* Low padding creates the thin layout */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 15px;
+}
+
+/* Logo Setup */
+.logo a {
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    font-size: 1.1rem;
+    white-space: nowrap;
+}
+
+/* Horizontal Menu Layout */
+.main-nav ul {
+    display: flex;
+    flex-direction: row; /* Enforces horizontal alignment everywhere */
+    list-style: none;
+    align-items: center;
+}
+
+.main-nav li {
+    margin-left: 22px; 
+}
+
+.main-nav a {
+    color: #bbb; /* Muted grey so active/hover states stand out */
+    font-size: 0.95rem;
+    font-weight: 500;
+    padding: 4px 0;
+    white-space: nowrap; /* Keeps link text strictly on one line */
+}
+
+/* Hover and Active Menu States */
+.main-nav a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-nav a.active {
+    color: #fff;
+    font-weight: 700;
+    border-bottom: 2px solid #fff; /* White accent bar under active page */
+}
+
+/* --- Full-Width Hero Section (Home Only) --- */
+.hero {
+    background-image: url('hero.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 400px; 
+    display: flex;
+    align-items: center;
+}
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.25); 
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+}
+
+/* --- 3-Column Features Section (Home Only) --- */
+.features-section {
+    padding: 60px 0 30px 0;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 40px; 
+}
+
+.feature-col h3 {
+    font-size: 1.5rem;
+    color: #111;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #111; 
+    padding-bottom: 6px;
+}
+
+.feature-col p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* --- Two Column / Two Row Info Section (Home Only) --- */
+.info-section {
+    padding: 30px 0 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 60px; 
+}
+
+.info-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 50px;
+    align-items: center; 
+}
+
+.info-text-col h2 {
+    font-size: 2rem;
+    color: #111;
+    margin-bottom: 15px;
+}
+
+.address-block {
+    font-style: normal;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+}
+
+.directions-text {
+    color: #444;
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+}
+
+.link-paragraph {
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
+}
+
+/* --- FAQ Section (Home Only) --- */
+.faq-section {
+    padding: 40px 0 60px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.faq-section h2 {
+    font-size: 2rem;
+    color: #111;
+    margin-bottom: 25px;
+}
+
+.faq-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; 
+}
+
+.faq-item {
+    background-color: var(--bg-light);
+    padding: 20px 25px;
+    border-radius: 6px;
+    border-left: 4px solid #111; 
+}
+
+.faq-item h3 {
+    font-size: 1.2rem;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.faq-item p:last-child {
+    margin-bottom: 0; 
+}
+
+/* --- Seamless 3-Image Gallery Section (Home Only) --- */
+.seamless-gallery {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 0; 
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    display: block; 
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* --- Course Page Specific Layout (Learn Only) --- */
+.course-content {
+    padding: 60px 0;
+    max-width: 800px; /* Constrains line length for optimal readability */
+}
+
+.course-article h1 {
+    font-size: 2.5rem;
+    color: #111;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #111;
+    padding-bottom: 10px;
+}
+
+.course-article h2 {
+    font-size: 1.6rem;
+    color: #111;
+    margin: 35px 0 15px 0;
+}
+
+.course-article p {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.course-article .intro-text {
+    font-size: 1.25rem;
+    color: #222;
+    font-weight: 500;
+}
+
+/* Adjusted List Formatting to Line Up Bullets with Headings */
+.course-list {
+    list-style-type: square;
+    padding-left: 0;       /* Removes standard browser default indent gap */
+    margin-left: 18px;     /* Small margin pushes just the squares onto the page while text edges align perfectly */
+    margin-bottom: 25px;
+}
+
+.course-list li {
+    font-size: 1.05rem;
+    color: #444;
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+/* Rounded Inline Layout tags for Hire Kit list */
+.inline-list {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.inline-list li {
+    background-color: var(--bg-light);
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-weight: 500;
+    border: 1px solid var(--border-color);
+    margin-bottom: 0;
+}
+
+/* Next Steps Box */
+.next-steps-box {
+    background-color: var(--bg-light);
+    border-left: 4px solid var(--primary-color);
+    padding: 20px 25px;
+    margin-top: 40px;
+    border-radius: 0 6px 6px 0;
+}
+
+.next-steps-box p {
+    margin-bottom: 0;
+    font-weight: 500;
+    color: #222;
+}
+
+/* --- Global Footer --- */
+.site-footer {
+    background: #111;
+    color: #777;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 0.85rem;
+    border-top: 1px solid #222;
+}
+
+/* --- Mobile Responsiveness --- */
+@media (max-width: 768px) {
+    .header-flex {
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .main-nav li {
+        margin: 5px 10px; 
+    }
+    
+    .main-nav ul {
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+    
+    .hero {
+        min-height: 300px;
+    }
+    
+    .hero-overlay {
+        min-height: 300px;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .info-row {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .faq-item {
+        padding: 15px 20px;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Learn Page Mobile Adjustments */
+    .course-content {
+        padding: 40px 0;
+    }
+
+    .course-article h1 {
+        font-size: 2rem;
+    }
+
+    .inline-list {
+        flex-direction: column;
+        gap: 8px;
+    }
+}
