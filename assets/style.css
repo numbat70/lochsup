@@ -1,3 +1,25 @@
+/* --- MK Added for Blog --- */
+
+.post-list{
+list-style-type: none; /* Removes the bullets */
+  padding: 0;            /* Removes default left padding */
+  margin: 0;            /* Removes default top/bottom margins */
+}
+
+.ONErem{
+/* Increases the gap from the left edge. 
+     Adjust the '1rem' (or pixels) to your liking */
+  padding-left: 1.2rem;
+  
+}
+
+.TWOrem{
+/* Increases the gap from the left edge. 
+     Adjust the '2rem' (or pixels) to your liking */
+  padding-left: 2rem;
+}
+
+
 /* --- Global Resets & Variables --- */
 :root {
     --primary-color: #0056b3;
@@ -96,7 +118,7 @@ a:hover {
 
 /* --- Full-Width Hero Section (Home Only) --- */
 .hero {
-    background-image: url('hero.png'); 
+    background-image: url('/assets/hero.png'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -136,6 +158,79 @@ a:hover {
     font-size: 1rem;
     color: #555;
 }
+
+/* --- 2-Column Blog Section (Blog Only) --- */
+/* --- 2-Column Blog Section (Blog Only) --- */
+/* --- 2-Column Blog Section (Blog Only) --- */
+/* --- 2-Column Blog Section (Blog Only) --- */
+/* --- 2-Column Blog Section (Blog Only) --- */
+/* The row container */
+        .row-container {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            /* Ensures both columns align to the top */
+            align-items: flex-start; 
+            gap: 16px; /* Optional: Adds space between columns */
+        }
+
+        /* Common column styling */
+        .column {
+            padding: 15px;
+            box-sizing: border-box; /* Includes padding in the width calculation */
+            background-color: #f4f4f9; /* Temporary background to visualize columns */
+            border: 0px solid #ccc;
+            text-align: left;
+            vertical-align: text-top;
+        }
+
+        /* Left column: 25% width */
+        .col-left {
+            width: 25%;
+        }
+
+        /* Right column: 75% width */
+        .col-right {
+            width: 75%;
+        }
+
+
+
+
+/* Another */
+/* --- 2-Column Blog Section (Blog Only) --- */
+/* --- 2-Column Blog Section (Blog Only) --- */
+/* --- 2-Column Blog Section (Blog Only) --- */
+/* --- 2-Column Blog Section (Blog Only) --- */
+/* --- 2-Column Blog Section (Blog Only) --- */
+
+
+
+
+
+.blog-section {
+    padding: 60px 0 30px 0;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 40px; 
+}
+
+.blog-col h3 {
+    font-size: 1.5rem;
+    color: #111;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #111; 
+    padding-bottom: 6px;
+}
+
+.blog-col p {
+    font-size: 1rem;
+    color: #555;
+}
+
 
 /* --- Two Column / Two Row Info Section (Home Only) --- */
 .info-section {

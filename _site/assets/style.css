@@ -1,3 +1,25 @@
+/* --- MK Added for Blog --- */
+
+.post-list{
+list-style-type: none; /* Removes the bullets */
+  padding: 0;            /* Removes default left padding */
+  margin: 0;            /* Removes default top/bottom margins */
+}
+
+.ONErem{
+/* Increases the gap from the left edge. 
+     Adjust the '1rem' (or pixels) to your liking */
+  padding-left: 1.2rem;
+  
+}
+
+.TWOrem{
+/* Increases the gap from the left edge. 
+     Adjust the '2rem' (or pixels) to your liking */
+  padding-left: 2rem;
+}
+
+
 /* --- Global Resets & Variables --- */
 :root {
     --primary-color: #0056b3;
@@ -96,7 +118,7 @@ a:hover {
 
 /* --- Full-Width Hero Section (Home Only) --- */
 .hero {
-    background-image: url('hero.png'); 
+    background-image: url('/assets/hero.png'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -136,6 +158,79 @@ a:hover {
     font-size: 1rem;
     color: #555;
 }
+
+/* --- 2-Column Blog Section (Blog Only) --- */
+/* --- 2-Column Blog Section (Blog Only) --- */
+/* --- 2-Column Blog Section (Blog Only) --- */
+/* --- 2-Column Blog Section (Blog Only) --- */
+/* --- 2-Column Blog Section (Blog Only) --- */
+/* The row container */
+        .row-container {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            /* Ensures both columns align to the top */
+            align-items: flex-start; 
+            gap: 16px; /* Optional: Adds space between columns */
+        }
+
+        /* Common column styling */
+        .column {
+            padding: 15px;
+            box-sizing: border-box; /* Includes padding in the width calculation */
+            background-color: #f4f4f9; /* Temporary background to visualize columns */
+            border: 0px solid #ccc;
+            text-align: left;
+            vertical-align: text-top;
+        }
+
+        /* Left column: 25% width */
+        .col-left {
+            width: 25%;
+        }
+
+        /* Right column: 75% width */
+        .col-right {
+            width: 75%;
+        }
+
+
+
+
+/* Another */
+/* --- 2-Column Blog Section (Blog Only) --- */
+/* --- 2-Column Blog Section (Blog Only) --- */
+/* --- 2-Column Blog Section (Blog Only) --- */
+/* --- 2-Column Blog Section (Blog Only) --- */
+/* --- 2-Column Blog Section (Blog Only) --- */
+
+
+
+
+
+.blog-section {
+    padding: 60px 0 30px 0;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 40px; 
+}
+
+.blog-col h3 {
+    font-size: 1.5rem;
+    color: #111;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #111; 
+    padding-bottom: 6px;
+}
+
+.blog-col p {
+    font-size: 1rem;
+    color: #555;
+}
+
 
 /* --- Two Column / Two Row Info Section (Home Only) --- */
 .info-section {
@@ -251,10 +346,10 @@ a:hover {
     border: none;
 }
 
-/* --- Course Page Specific Layout (Learn Only) --- */
+/* --- Inner Pages Layout Structure (Learn, Improve, Race, Book) --- */
 .course-content {
     padding: 60px 0;
-    max-width: 800px; /* Constrains line length for optimal readability */
+    max-width: 800px; /* Constrains text width layout for premium reading comfort */
 }
 
 .course-article h1 {
@@ -271,6 +366,12 @@ a:hover {
     margin: 35px 0 15px 0;
 }
 
+.course-article h3 {
+    font-size: 1.4rem;
+    color: #111;
+    margin: 30px 0 15px 0;
+}
+
 .course-article p {
     font-size: 1.1rem;
     color: #444;
@@ -284,11 +385,11 @@ a:hover {
     font-weight: 500;
 }
 
-/* Adjusted List Formatting to Line Up Bullets with Headings */
+/* List Formatting - Aligns Bullet Squares Directly Under Text Headings */
 .course-list {
     list-style-type: square;
-    padding-left: 0;       /* Removes standard browser default indent gap */
-    margin-left: 18px;     /* Small margin pushes just the squares onto the page while text edges align perfectly */
+    padding-left: 0;       /* Erases browser list indents */
+    margin-left: 18px;     /* Leaves just enough room to keep dots cleanly contained on line edge */
     margin-bottom: 25px;
 }
 
@@ -299,26 +400,7 @@ a:hover {
     line-height: 1.6;
 }
 
-/* Rounded Inline Layout tags for Hire Kit list */
-.inline-list {
-    list-style-type: none;
-    margin-left: 0;
-    padding-left: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-}
-
-.inline-list li {
-    background-color: var(--bg-light);
-    padding: 6px 16px;
-    border-radius: 20px;
-    font-weight: 500;
-    border: 1px solid var(--border-color);
-    margin-bottom: 0;
-}
-
-/* Next Steps Box */
+/* Special Highlighted Callout Box */
 .next-steps-box {
     background-color: var(--bg-light);
     border-left: 4px solid var(--primary-color);
@@ -333,6 +415,21 @@ a:hover {
     color: #222;
 }
 
+/* --- Inline Book Cover Component (Book Only) --- */
+.book-image-wrapper {
+    margin: 25px 0;
+    width: 100%;
+}
+
+.book-inline-img {
+    max-width: 105px; /* Precisely scaled down to 33% size value */
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); /* Proportionate, soft shadow profile */
+}
+
 /* --- Global Footer --- */
 .site-footer {
     background: #111;
@@ -343,7 +440,7 @@ a:hover {
     border-top: 1px solid #222;
 }
 
-/* --- Mobile Responsiveness --- */
+/* --- Mobile Responsiveness Matrix --- */
 @media (max-width: 768px) {
     .header-flex {
         justify-content: center;
@@ -360,11 +457,7 @@ a:hover {
         justify-content: center;
     }
     
-    .hero {
-        min-height: 300px;
-    }
-    
-    .hero-overlay {
+    .hero, .hero-overlay {
         min-height: 300px;
     }
 
@@ -386,17 +479,11 @@ a:hover {
         grid-template-columns: 1fr;
     }
 
-    /* Learn Page Mobile Adjustments */
     .course-content {
         padding: 40px 0;
     }
 
     .course-article h1 {
         font-size: 2rem;
-    }
-
-    .inline-list {
-        flex-direction: column;
-        gap: 8px;
     }
 }
