@@ -1,5 +1,0 @@
-{
-    "meta": {
-        "key": "new_value"
-    }
-}

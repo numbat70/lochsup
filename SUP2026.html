@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SUP Links 2026</title>
+  <style>
+    :root {
+      --teal-primary: #008080;
+      --teal-dark: #006666;
+      --teal-light: #e6f4f4;
+      --teal-border: #b2dfdb;
+      --text-main: #1f2937;
+      --link-color: #006d77;
+      --link-hover: #004d40;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f8fafc;
+      color: var(--text-main);
+      line-height: 1.5;
+    }
+
+    /* Teal Header with max 0.5rem top/bottom spacing */
+    header {
+      background-color: var(--teal-primary);
+      color: #ffffff;
+      text-align: center;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+    }
+
+    .header-time {
+      font-size: 2.25rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      line-height: 1.1;
+      margin: 0;
+    }
+
+    .header-date {
+      font-size: 0.95rem;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      line-height: 1.2;
+      margin: 0;
+      opacity: 0.95;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 1rem auto;
+      padding: 0 1rem;
+    }
+
+    /* Concertina / Accordion Sections with minimized whitespace */
+    .concertina-section {
+      margin-bottom: 0.3rem; /* Reduced whitespace between sections */
+      border: 1px solid var(--teal-border);
+      border-radius: 5px;
+      background: #ffffff;
+      overflow: hidden;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    }
+
+    .concertina-section summary {
+      padding: 0.55rem 0.85rem;
+      background-color: var(--teal-light);
+      color: var(--teal-dark);
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      user-select: none;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: background-color 0.15s ease-in-out;
+    }
+
+    .concertina-section summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .concertina-section summary::after {
+      content: "+";
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: var(--teal-dark);
+      transition: transform 0.2s ease;
+    }
+
+    .concertina-section[open] summary::after {
+      content: "\2212"; /* Minus sign */
+    }
+
+    .concertina-section summary:hover {
+      background-color: #d7eded;
+    }
+
+    .concertina-section[open] summary {
+      border-bottom: 1px solid var(--teal-border);
+    }
+
+    .concertina-content {
+      padding: 0.5rem 1rem 0.6rem 2rem;
+    }
+
+    ul.link-list {
+      list-style-type: disc;
+      margin: 0;
+      padding: 0;
+    }
+
+    ul.link-list li {
+      padding: 0.22rem 0;
+      font-size: 0.95rem;
+    }
+
+    ul.link-list a {
+      color: var(--link-color);
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.15s ease;
+    }
+
+    ul.link-list a:hover {
+      color: var(--link-hover);
+      text-decoration: underline;
+    }
+
+    .empty-note {
+      color: #6b7280;
+      font-style: italic;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Teal Header -->
+  <header>
+    <div class="header-time" id="live-time">--:--</div>
+    <div class="header-date" id="live-date">Loading date...</div>
+  </header>
+
+  <!-- Accordion Sections -->
+  <main>
+
+    <!-- SUP -->
+    <details class="concertina-section" open>
+      <summary>SUP</summary>
+      <div class="concertina-content">
+        <ul class="link-list">
+          <li><a href="https://totalsup.com" target="_blank" rel="noopener noreferrer">Total SUP</a></li>
+          <li><a href="https://www.supconnect.com/" target="_blank" rel="noopener noreferrer">SUP Connect</a></li>
+          <li><a href="https://www.webscorer.com" target="_blank" rel="noopener noreferrer">Web Scorer</a></li>
+          <li><a href="https://www.facebook.com/Supjunkie.co.uk/" target="_blank" rel="noopener noreferrer">SUP Junkie</a></li>
+          <li><a href="https://standuppaddlemag.co.uk" target="_blank" rel="noopener noreferrer">SUP Mag UK</a></li>
+          <li><a href="https://www.paddleworld.com" target="_blank" rel="noopener noreferrer">SUP World Mag</a></li>
+          <li><a href="https://www.instagram.com/supworldmag/" target="_blank" rel="noopener noreferrer">SUP World Mag Instagram</a></li>
+          <li><a href="https://gong-galaxy.com/en/magazine" target="_blank" rel="noopener noreferrer">Gong Galaxy Magazine</a></li>
+          <li><a href="https://theinertia.com/surf/sup" target="_blank" rel="noopener noreferrer">The Inertia Magazine</a></li>
+          <li><a href="https://paddlemonster.com" target="_blank" rel="noopener noreferrer">Paddle Monster</a></li>
+        </ul>
+      </div>
+    </details>
+
+    <!-- SUP Company -->
+    <details class="concertina-section">
+      <summary>SUP Company</summary>
+      <div class="concertina-content">
+        <ul class="link-list">
+          <li><a href="https://blackprojectsup.com" target="_blank" rel="noopener noreferrer">Black Project</a></li>
+          <li><a href="https://www.quickbladepaddles.com" target="_blank" rel="noopener noreferrer">Quick Blade</a></li>
+          <li><a href="https://sup.star-board.com" target="_blank" rel="noopener noreferrer">Starboard</a></li>
+          <li><a href="https://nspsurfboards.com" target="_blank" rel="noopener noreferrer">NSP</a></li>
+          <li><a href="https://infinitysurf.com" target="_blank" rel="noopener noreferrer">Infinity</a></li>
+          <li><a href="https://oneoceansports.com" target="_blank" rel="noopener noreferrer">One Ocean Sports</a></li>
+          <li><a href="https://sicmaui.com" target="_blank" rel="noopener noreferrer">SIC Maui</a></li>
+          <li><a href="https://sunovasurfboards.com" target="_blank" rel="noopener noreferrer">Sunova</a></li>
+          <li><a href="https://store.404.com" target="_blank" rel="noopener noreferrer">404</a></li>
+          <li><a href="https://flyingfishpaddlesports.com" target="_blank" rel="noopener noreferrer">Flying Fish</a></li>
+          <li><a href="https://jimmylewis.com" target="_blank" rel="noopener noreferrer">Jimmy Lewis</a></li>
+          <li><a href="https://mistral.com" target="_blank" rel="noopener noreferrer">Mistral</a></li>
+          <li><a href="https://jp-australia.com" target="_blank" rel="noopener noreferrer">JP AUstralia</a></li>
+          <li><a href="https://duotonesports.com" target="_blank" rel="noopener noreferrer">Fanatic/Duotone</a></li>
+          <li><a href="https://surftech.com/collections/bark" target="_blank" rel="noopener noreferrer">Bark</a></li>
+          <li><a href="https://tahesport.com" target="_blank" rel="noopener noreferrer">Tahe</a></li>
+          <li><a href="https://naishsurfing.com" target="_blank" rel="noopener noreferrer">Naish</a></li>
+          <li><a href="https://redpaddleco.com" target="_blank" rel="noopener noreferrer">Red Paddle</a></li>
+          <li><a href="https://red-original.com" target="_blank" rel="noopener noreferrer">Red Origional</a></li>
+          <li><a href="https://boteboard.com" target="_blank" rel="noopener noreferrer">Bote</a></li>
+          <li><a href="https://surffcs.com" target="_blank" rel="noopener noreferrer">FCS</a></li>
+          <li><a href="https://restube.com" target="_blank" rel="noopener noreferrer">Rest Tube</a></li>
+          <li><a href="https://vaikobi.com" target="_blank" rel="noopener noreferrer">Vaikobi</a></li>
+          <li><a href="https://braca-sport.com" target="_blank" rel="noopener noreferrer">Braçsa-Sport</a></li>
+          <li><a href="https://mockepaddling.com" target="_blank" rel="noopener noreferrer">Mocke</a></li>
+        </ul>
+      </div>
+    </details>
+
+    <!-- SUP Info -->
+    <details class="concertina-section">
+      <summary>SUP Info</summary>
+      <div class="concertina-content">
+        <ul class="link-list">
+          <li><a href="https://gopaddling.com" target="_blank" rel="noopener noreferrer">Go Paddling</a></li>
+          <li><a href="https://windy.com" target="_blank" rel="noopener noreferrer">Windy</a></li>
+          <li><a href="https://surfline.com" target="_blank" rel="noopener noreferrer">Surfline</a></li>
+          <li><a href="https://paddling.com" target="_blank" rel="noopener noreferrer">Paddling.COM</a></li>
+          <li><a href="https://seabreeze.com.au/forums/Stand-Up-Paddle" target="_blank" rel="noopener noreferrer">Seabreeze Australia</a></li>
+          <li><a href="https://paddlemonster.com" target="_blank" rel="noopener noreferrer">Paddle Monster</a></li>
+          <li><a href="https://paddleworldwide.com" target="_blank" rel="noopener noreferrer">Paddle Worldwide</a></li>
+        </ul>
+      </div>
+    </details>
+
+    <!-- SUP Org -->
+    <details class="concertina-section">
+      <summary>SUP Org</summary>
+      <div class="concertina-content">
+        <ul class="link-list">
+          <li><a href="https://www.scottishcanals.co.uk/visit/things-to-do/paddling/discover-the-great-glen-canoe-trail" target="_blank" rel="noopener noreferrer">Scottish Canals</a></li>
+          <li><a href="https://www.paddlescotland.org.uk" target="_blank" rel="noopener noreferrer">Paddle Scotland</a></li>
+          <li><a href="https://paddleuk.org.uk" target="_blank" rel="noopener noreferrer">Paddle UK</a></li>
+          <li><a href="https://www.gbsup.co.uk" target="_blank" rel="noopener noreferrer">GB SUP</a></li>
+          <li><a href="https://isasurf.org" target="_blank" rel="noopener noreferrer">ISA</a></li>
+          <li><a href="https://canoeicf.org" target="_blank" rel="noopener noreferrer">ICF</a></li>
+          <li><a href="https://academyofsurfing.com" target="_blank" rel="noopener noreferrer">ASI</a></li>
+        </ul>
+      </div>
+    </details>
+
+    <!-- SUP Mag -->
+    <details class="concertina-section">
+      <summary>SUP Mag</summary>
+      <div class="concertina-content">
+        <ul class="link-list">
+          <li><a href="https://supboardermag.com" target="_blank" rel="noopener noreferrer">Sub Boarder Mag</a></li>
+        </ul>
+      </div>
+    </details>
+
+    <!-- SUP Race -->
+    <details class="concertina-section">
+      <summary>SUP Race</summary>
+      <div class="concertina-content">
+        <ul class="link-list">
+          <li><a href="https://eurotoursup.net" target="_blank" rel="noopener noreferrer">Euro Tour SUP</a></li>
+          <li><a href="https://www.facebook.com/p/The-Paddle-Skedaddle-100063934030074/?locale=en_GB" target="_blank" rel="noopener noreferrer">Paddle Skedaddle 8th May</a></li>
+          <li><a href="https://www.race2thecastle.com" target="_blank" rel="noopener noreferrer">Race 2 The Castle</a></li>
+          <li><a href="https://glaglarace.com" target="_blank" rel="noopener noreferrer">The Gla Gla</a></li>
+          <li><a href="https://salaca100.lv" target="_blank" rel="noopener noreferrer">Salaca 100</a></li>
+          <li><a href="https://gbsup.co.uk" target="_blank" rel="noopener noreferrer">GBSUP</a></li>
+          <li><a href="https://dordogneintegrale.com/" target="_blank" rel="noopener noreferrer">Dordogne Integrale</a></li>
+          <li><a href="https://sup11citytour.com/" target="_blank" rel="noopener noreferrer">11 Cities</a></li>
+          <li><a href="https://www.paddlescotland.org.uk" target="_blank" rel="noopener noreferrer">Glasgow to Edinburgh</a></li>
+        </ul>
+      </div>
+    </details>
+
+    <!-- Training -->
+    <details class="concertina-section">
+      <summary>Training</summary>
+      <div class="concertina-content">
+        <p class="empty-note">No active links listed.</p>
+      </div>
+    </details>
+
+    <!-- Travel -->
+    <details class="concertina-section">
+      <summary>Travel</summary>
+      <div class="concertina-content">
+        <ul class="link-list">
+          <li><a href="https://www.thetrainline.com" target="_blank" rel="noopener noreferrer">Trainline</a></li>
+        </ul>
+      </div>
+    </details>
+
+  </main>
+
+  <script>
+    function getOrdinalSuffix(day) {
+      if (day > 3 && day < 21) return 'th';
+      switch (day % 10) {
+        case 1:  return 'st';
+        case 2:  return 'nd';
+        case 3:  return 'rd';
+        default: return 'th';
+      }
+    }
+
+    function updateClock() {
+      const now = new Date();
+
+      // 24-hour time format: HH:mm
+      const hours = String(now.getHours()).padStart(2, '0');
+      const minutes = String(now.getMinutes()).padStart(2, '0');
+      document.getElementById('live-time').textContent = `${hours}:${minutes}`;
+
+      // Date format: e.g. Thursday, 26th March 2026
+      const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+      const months = [
+        'January', 'February', 'March', 'April', 'May', 'June',
+        'July', 'August', 'September', 'October', 'November', 'December'
+      ];
+
+      const weekday = weekdays[now.getDay()];
+      const day = now.getDate();
+      const suffix = getOrdinalSuffix(day);
+      const month = months[now.getMonth()];
+      const year = now.getFullYear();
+
+      document.getElementById('live-date').textContent = `${weekday}, ${day}${suffix} ${month} ${year}`;
+    }
+
+    updateClock();
+    setInterval(updateClock, 1000);
+  </script>
+</body>
+</html>

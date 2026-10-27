@@ -1,5 +1,0 @@
-{
-    "metadata": {
-        "key": "value"
-    }
-}

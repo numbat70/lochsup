@@ -1,5 +1,0 @@
-{
-    "meta": {
-        "name": "metadata1"
-    }
-}
