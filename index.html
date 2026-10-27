@@ -1,152 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loch SUP | Home</title>
-    <link rel="stylesheet" href="assets/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SUP Links 2026</title>
+  <style>
+    :root {
+      --teal-primary: #008080;
+      --teal-dark: #005f5f;
+      --teal-light: #e6f2f2;
+      --text-dark: #222222;
+      --border-color: #d0e0e0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text-dark);
+      background-color: #f7f9f9;
+      line-height: 1.5;
+    }
+
+    /* Teal Header */
+    header {
+      background-color: var(--teal-primary);
+      color: #ffffff;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      padding: 0.5rem 1rem;
+    }
+
+    .time-display {
+      font-size: 2.8rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      line-height: 1.1;
+      margin-top: 0.5rem;
+    }
+
+    .date-display {
+      font-size: 1.1rem;
+      font-weight: 400;
+      opacity: 0.95;
+      margin-top: 0.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Main Container & Concertina Sections */
+    main {
+      max-width: 860px;
+      margin: 0.75rem auto;
+      padding: 0 1rem;
+    }
+
+    /* Minimized whitespace between concertina sections */
+    details.concertina {
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 4px;
+      margin-bottom: 0.35rem; /* Tight spacing between sections */
+      overflow: hidden;
+      transition: border-color 0.2s ease;
+    }
+
+    details.concertina[open] {
+      border-color: var(--teal-primary);
+    }
+
+    summary {
+      font-weight: 600;
+      font-size: 1.05rem;
+      padding: 0.55rem 0.9rem;
+      cursor: pointer;
+      background-color: #ffffff;
+      color: var(--teal-dark);
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      user-select: none;
+      transition: background-color 0.15s ease;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    summary:hover {
+      background-color: var(--teal-light);
+    }
+
+    summary::after {
+      content: '+';
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: var(--teal-primary);
+      line-height: 1;
+      transition: transform 0.2s ease;
+    }
+
+    details[open] summary::after {
+      content: '−';
+    }
+
+    /* Bullet Point Lists */
+    ul.links-list {
+      padding: 0.5rem 1.25rem 0.65rem 2.2rem;
+      margin: 0;
+      background-color: #fafdfd;
+      border-top: 1px solid var(--border-color);
+    }
+
+    ul.links-list li {
+      margin-bottom: 0.25rem;
+    }
+
+    ul.links-list li:last-child {
+      margin-bottom: 0;
+    }
+
+    ul.links-list a {
+      color: #0b5c68;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: color 0.15s ease, text-decoration 0.15s ease;
+    }
+
+    ul.links-list a:hover {
+      color: var(--teal-dark);
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
 
-    <header class="site-header">
-        <div class="container header-flex">
-            <div class="logo">
-                <a href="index.html">Loch SUP</a>
-            </div>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="learn.html">Learn</a></li>
-                    <li><a href="improve.html">Improve</a></li>
-                    <li><a href="race.html">Race</a></li>
-                    <li><a href="blog.html">Performance Blog</a></li>
-                    <li><a href="book.html">The Training Book</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <!-- Teal Header with Live Time and Date -->
+  <header>
+    <div id="clock" class="time-display">--:--</div>
+    <div id="date" class="date-display">--------</div>
+  </header>
 
-    <section class="hero">
-        <div class="hero-overlay"></div>
-    </section>
+  <!-- Concertina Sections -->
+  <main>
 
-    <section class="container features-section">
-        <div class="features-grid">
-            
-            <div class="feature-col">
-                <h3>Learn to SUP</h3>
-                <p>If you are 18 or over, and no matter what fitness level, our SUP School can teach you to have fun and stay safe on a Stand Up Paddle board (SUP).</p>
-            </div>
+    <!-- Section: SUP -->
+    <details class="concertina">
+      <summary>SUP</summary>
+      <ul class="links-list">
+        <li><a href="https://totalsup.com" target="_blank" rel="noopener noreferrer">Total SUP</a></li>
+        <li><a href="https://www.supconnect.com/" target="_blank" rel="noopener noreferrer">SUP Connect</a></li>
+        <li><a href="https://www.webscorer.com" target="_blank" rel="noopener noreferrer">Web Scorer</a></li>
+        <li><a href="https://www.facebook.com/Supjunkie.co.uk/" target="_blank" rel="noopener noreferrer">SUP Junkie</a></li>
+        <li><a href="https://standuppaddlemag.co.uk" target="_blank" rel="noopener noreferrer">SUP Mag UK</a></li>
+        <li><a href="https://www.paddleworld.com" target="_blank" rel="noopener noreferrer">SUP World Mag</a></li>
+        <li><a href="https://www.instagram.com/supworldmag/" target="_blank" rel="noopener noreferrer">SUP World Mag Instagram</a></li>
+        <li><a href="https://gong-galaxy.com/en/magazine" target="_blank" rel="noopener noreferrer">Gong Galaxy Magazine</a></li>
+        <li><a href="https://theinertia.com/surf/sup" target="_blank" rel="noopener noreferrer">The Inertia Magazine</a></li>
+        <li><a href="https://paddlemonster.com" target="_blank" rel="noopener noreferrer">Paddle Monster</a></li>
+      </ul>
+    </details>
 
-            <div class="feature-col">
-                <h3>Improve</h3>
-                <p>If you want to take it to the next level, we run Race SUP training. It’s also a great way to get fit.</p>
-            </div>
+    <!-- Section: SUP Company -->
+    <details class="concertina">
+      <summary>SUP Company</summary>
+      <ul class="links-list">
+        <li><a href="https://blackprojectsup.com" target="_blank" rel="noopener noreferrer">Black Project</a></li>
+        <li><a href="https://www.quickbladepaddles.com" target="_blank" rel="noopener noreferrer">Quick Blade</a></li>
+        <li><a href="https://sup.star-board.com" target="_blank" rel="noopener noreferrer">Starboard</a></li>
+        <li><a href="https://nspsurfboards.com" target="_blank" rel="noopener noreferrer">NSP</a></li>
+        <li><a href="https://infinitysurf.com" target="_blank" rel="noopener noreferrer">Infinity</a></li>
+        <li><a href="https://oneoceansports.com" target="_blank" rel="noopener noreferrer">One Ocean Sports</a></li>
+        <li><a href="https://sicmaui.com" target="_blank" rel="noopener noreferrer">SIC Maui</a></li>
+        <li><a href="https://sunovasurfboards.com" target="_blank" rel="noopener noreferrer">Sunova</a></li>
+        <li><a href="https://store.404.com" target="_blank" rel="noopener noreferrer">404</a></li>
+        <li><a href="https://flyingfishpaddlesports.com" target="_blank" rel="noopener noreferrer">Flying Fish</a></li>
+        <li><a href="https://jimmylewis.com" target="_blank" rel="noopener noreferrer">Jimmy Lewis</a></li>
+        <li><a href="https://mistral.com" target="_blank" rel="noopener noreferrer">Mistral</a></li>
+        <li><a href="https://jp-australia.com" target="_blank" rel="noopener noreferrer">JP AUstralia</a></li>
+        <li><a href="https://duotonesports.com" target="_blank" rel="noopener noreferrer">Fanatic/Duotone</a></li>
+        <li><a href="https://surftech.com/collections/bark" target="_blank" rel="noopener noreferrer">Bark</a></li>
+        <li><a href="https://tahesport.com" target="_blank" rel="noopener noreferrer">Tahe</a></li>
+        <li><a href="https://naishsurfing.com" target="_blank" rel="noopener noreferrer">Naish</a></li>
+        <li><a href="https://redpaddleco.com" target="_blank" rel="noopener noreferrer">Red Paddle</a></li>
+        <li><a href="https://red-original.com" target="_blank" rel="noopener noreferrer">Red Origional</a></li>
+        <li><a href="https://boteboard.com" target="_blank" rel="noopener noreferrer">Bote</a></li>
+        <li><a href="https://surffcs.com" target="_blank" rel="noopener noreferrer">FCS</a></li>
+        <li><a href="https://restube.com" target="_blank" rel="noopener noreferrer">Rest Tube</a></li>
+        <li><a href="https://vaikobi.com" target="_blank" rel="noopener noreferrer">Vaikobi</a></li>
+        <li><a href="https://braca-sport.com" target="_blank" rel="noopener noreferrer">Braçsa-Sport</a></li>
+        <li><a href="https://mockepaddling.com" target="_blank" rel="noopener noreferrer">Mocke</a></li>
+      </ul>
+    </details>
 
-            <div class="feature-col">
-                <h3>Race</h3>
-                <p>When you are ready to race, we run SUP Races that suit everyone from first timers all the way up to national level. We are Scotland’s only SUP Race Club and are the place to train.</p>
-            </div>
+    <!-- Section: SUP Info -->
+    <details class="concertina">
+      <summary>SUP Info</summary>
+      <ul class="links-list">
+        <li><a href="https://gopaddling.com" target="_blank" rel="noopener noreferrer">Go Paddling</a></li>
+        <li><a href="https://windy.com" target="_blank" rel="noopener noreferrer">Windy</a></li>
+        <li><a href="https://surfline.com" target="_blank" rel="noopener noreferrer">Surfline</a></li>
+        <li><a href="https://paddling.com" target="_blank" rel="noopener noreferrer">Paddling.COM</a></li>
+        <li><a href="https://seabreeze.com.au/forums/Stand-Up-Paddle" target="_blank" rel="noopener noreferrer">Seabreeze Australia</a></li>
+        <li><a href="https://paddlemonster.com" target="_blank" rel="noopener noreferrer">Paddle Monster</a></li>
+        <li><a href="https://paddleworldwide.com" target="_blank" rel="noopener noreferrer">Paddle Worldwide</a></li>
+      </ul>
+    </details>
 
-        </div>
-    </section>
+    <!-- Section: SUP Org -->
+    <details class="concertina">
+      <summary>SUP Org</summary>
+      <ul class="links-list">
+        <li><a href="https://www.scottishcanals.co.uk/visit/things-to-do/paddling/discover-the-great-glen-canoe-trail" target="_blank" rel="noopener noreferrer">Scottish Canals</a></li>
+        <li><a href="https://www.paddlescotland.org.uk" target="_blank" rel="noopener noreferrer">Paddle Scotland</a></li>
+        <li><a href="https://paddleuk.org.uk" target="_blank" rel="noopener noreferrer">Paddle UK</a></li>
+        <li><a href="https://www.gbsup.co.uk" target="_blank" rel="noopener noreferrer">GB SUP</a></li>
+        <li><a href="https://isasurf.org" target="_blank" rel="noopener noreferrer">ISA</a></li>
+        <li><a href="https://canoeicf.org" target="_blank" rel="noopener noreferrer">ICF</a></li>
+        <li><a href="https://academyofsurfing.com" target="_blank" rel="noopener noreferrer">ASI</a></li>
+      </ul>
+    </details>
 
-    <section class="container info-section">
-        
-        <div class="info-row">
-            <div class="info-text-col">
-                <h2>Location</h2>
-                <address class="address-block">
-                    <strong>Loch SUP</strong><br>
-                    Castle Semple Visitor Centre and Country Park,<br>
-                    Lochlip Road,<br>
-                    Lochwinnoch,<br>
-                    Renfrewshire,<br>
-                    PA12 4EA
-                </address>
-                <p class="link-paragraph">See the: <a href="directions.html">Visitor Centre directions page</a></p>
-            </div>
-            <div class="info-img-col">
-                <img src="assets/map.png" alt="Location Map Diagram" class="responsive-img">
-            </div>
-        </div>
+    <!-- Section: SUP Mag -->
+    <details class="concertina">
+      <summary>SUP Mag</summary>
+      <ul class="links-list">
+        <li><a href="https://supboardermag.com" target="_blank" rel="noopener noreferrer">Sub Boarder Mag</a></li>
+      </ul>
+    </details>
 
-        <div class="info-row">
-            <div class="info-text-col">
-                <h2>When you get here</h2>
-                <address class="address-block">
-                    <strong>Loch SUP</strong><br>
-                    Castle Semple Visitor Centre and Country Park,<br>
-                    Lochlip Road,<br>
-                    Lochwinnoch,<br>
-                    Renfrewshire,<br>
-                    PA12 4EA
-                </address>
-                <p class="directions-text">
-                    Follow the red line on the image. This takes you from the car park to the Grass Triangle where we will meet you.
-                </p>
-                <p class="link-paragraph">See the: <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer">Google map of the location</a></p>
-            </div>
-            <div class="info-img-col">
-                <img src="assets/lochside.png" alt="Loch side arrival point" class="responsive-img">
-            </div>
-        </div>
+    <!-- Section: SUP Race -->
+    <details class="concertina">
+      <summary>SUP Race</summary>
+      <ul class="links-list">
+        <li><a href="https://eurotoursup.net" target="_blank" rel="noopener noreferrer">Euro Tour SUP</a></li>
+        <li><a href="https://www.facebook.com/p/The-Paddle-Skedaddle-100063934030074/?locale=en_GB" target="_blank" rel="noopener noreferrer">Paddle Skedaddle 8th May</a></li>
+        <li><a href="https://www.race2thecastle.com" target="_blank" rel="noopener noreferrer">Race 2 The Castle</a></li>
+        <li><a href="https://glaglarace.com" target="_blank" rel="noopener noreferrer">The Gla Gla</a></li>
+        <li><a href="https://salaca100.lv" target="_blank" rel="noopener noreferrer">Salaca 100</a></li>
+        <li><a href="https://gbsup.co.uk" target="_blank" rel="noopener noreferrer">GBSUP</a></li>
+        <li><a href="https://dordogneintegrale.com/" target="_blank" rel="noopener noreferrer">Dordogne Integrale</a></li>
+        <li><a href="https://sup11citytour.com/" target="_blank" rel="noopener noreferrer">11 Cities</a></li>
+        <li><a href="https://www.paddlescotland.org.uk" target="_blank" rel="noopener noreferrer">Glasgow to Edinburgh</a></li>
+      </ul>
+    </details>
 
-    </section>
+    <!-- Section: Travel -->
+    <details class="concertina">
+      <summary>Travel</summary>
+      <ul class="links-list">
+        <li><a href="https://www.thetrainline.com" target="_blank" rel="noopener noreferrer">Trainline</a></li>
+      </ul>
+    </details>
 
-    <section class="container faq-section">
-        <h2>FAQ</h2>
-        
-        <div class="faq-grid">
-            <div class="faq-item">
-                <h3>What do I need to bring for a SUP Lesson?</h3>
-                <p>We provide the Paddle Board, Wetsuit, Leash, Paddle and Buoyancy Aid. You need to bring trainers or soft shoes that can get wet, swimsuit for under the wetsuit, towel and dry clothes to change into afterwards.</p>
-            </div>
+  </main>
 
-            <div class="faq-item">
-                <h3>How long does a learner session last?</h3>
-                <p>Lessons take around two hours. Most of this will be on the water, after a brief on land familiarisation with kit and safety procedures. Please turn up at least 15 minutes early to get your wetsuit on.</p>
-            </div>
+  <!-- Live Date & 24hr Time Script -->
+  <script>
+    function getOrdinalSuffix(day) {
+      if (day > 3 && day < 21) return 'th';
+      switch (day % 10) {
+        case 1: return 'st';
+        case 2: return 'nd';
+        case 3: return 'rd';
+        default: return 'th';
+      }
+    }
 
-            <div class="faq-item">
-                <h3>Will bad weather postpone sessions?</h3>
-                <p>We will run sessions in winds up to 8mph with slightly higher gusts. The direction of the wind also has an impact on postponing sessions.</p>
-                <p>Rain will not usually stop a session but cold weather or windchill caused by wind, rain and cold air may well postpone sessions.</p>
-                <p>Lightning will get us off the water quickly. We run a 30 seconds / 30 minutes Lightning Policy.</p>
-                <p>If you see Lightning, and hear thunder within 30 seconds, then it is within 6 miles (10km). In that case we get off the water and stay off until 30 mins after the last sound of Thunder.</p>
-            </div>
+    function updateDateTime() {
+      const now = new Date();
 
-            <div class="faq-item">
-                <h3>How deep is the Loch?</h3>
-                <p>Most of the Loch is around 4 feet deep and the average adult can stand up in it with their head above water. There are a couple of slightly deeper areas, but we do not go near them in a beginner session.</p>
-            </div>
+      // 24-hour time (HH:MM)
+      const hours = String(now.getHours()).padStart(2, '0');
+      const minutes = String(now.getMinutes()).padStart(2, '0');
+      document.getElementById('clock').textContent = `${hours}:${minutes}`;
 
-            <div class="faq-item">
-                <h3>Can my family watch and take pictures?</h3>
-                <p>Around 20% of the session will be done in front of the visitor centre that has excellent paths and is a great venue for family to watch and take pictures. There is also a cafe for them to retreat to whilst we travel up the Loch a little bit as your skills grow.</p>
-            </div>
+      // Date in format: "DayOfWeek, Dth Month YYYY"
+      const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+      const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
-            <div class="faq-item">
-                <h3>Why are you called Loch SUP?</h3>
-                <p>As we do most of our paddling on Scottish Lochs and live in Lochwinnoch it seemed like a good fit.</p>
-                <p>The conversation basically started and ended with “What name suggests both Lochs and SUP…”</p>
-            </div>
-        </div>
-    </section>
+      const weekday = weekdays[now.getDay()];
+      const day = now.getDate();
+      const month = months[now.getMonth()];
+      const year = now.getFullYear();
 
-    <section class="seamless-gallery">
-        <div class="gallery-grid">
-            <img src="assets/home1.jpeg" alt="SUP Activity Image 1">
-            <img src="assets/home2.jpeg" alt="SUP Activity Image 2">
-            <img src="assets/home3.jpeg" alt="SUP Activity Image 3">
-        </div>
-    </section>
+      document.getElementById('date').textContent = `${weekday}, ${day}${getOrdinalSuffix(day)} ${month} ${year}`;
+    }
 
-    <footer class="site-footer">
-        <div class="container">
-            <p>Loch Sup© 2026 . All rights reserved.</p>
-        </div>
-    </footer>
-
+    updateDateTime();
+    setInterval(updateDateTime, 1000);
+  </script>
 </body>
 </html>
