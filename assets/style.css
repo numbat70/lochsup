@@ -118,7 +118,7 @@ a:hover {
 }
 
 /* --- Full-Width Hero Section (Home Only) --- */
-.hero {
+.hero_deprecated {
     background-image: url('/lochsup/assets/hero.png'); 
     background-size: cover;
     background-position: center;
