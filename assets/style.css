@@ -395,7 +395,7 @@ a:hover {
 }
 
 .indented-li{
-    list-style-type: square;
+    list-style-type: circle;
     padding-left: 0;       /* Erases browser list indents */
     margin-left: 18px;     /* Leaves just enough room to keep dots cleanly contained on line edge */
     margin-bottom: 25px;
