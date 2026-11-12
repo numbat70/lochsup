@@ -394,6 +394,15 @@ a:hover {
     margin-bottom: 25px;
 }
 
+.indented-li{
+    list-style-type: square;
+    padding-left: 0;       /* Erases browser list indents */
+    margin-left: 18px;     /* Leaves just enough room to keep dots cleanly contained on line edge */
+    margin-bottom: 25px;
+}
+
+
+
 .course-list li {
     font-size: 1.05rem;
     color: #444;
