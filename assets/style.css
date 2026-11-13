@@ -111,11 +111,14 @@ a:hover {
     text-decoration: none;
 }
 
+
+
 .main-nav a.active {
     color: #fff;
     font-weight: 700;
     border-bottom: 2px solid #fff; /* White accent bar under active page */
 }
+
 
 /* --- Full-Width Hero Section (Home Only) --- */
 .hero_deprecated {
