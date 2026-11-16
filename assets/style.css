@@ -152,7 +152,7 @@ a:hover {
 
 .feature-col h3 {
     font-size: 1.5rem;
-    color: #111;
+    color: #333;
     margin-bottom: 12px;
     border-bottom: 2px solid #111; 
     padding-bottom: 6px;
@@ -224,7 +224,7 @@ a:hover {
 
 .blog-col h3 {
     font-size: 1.5rem;
-    color: #111;
+    color: #333;
     margin-bottom: 12px;
     border-bottom: 2px solid #111; 
     padding-bottom: 6px;
@@ -311,7 +311,7 @@ a:hover {
 
 .faq-item h3 {
     font-size: 1.2rem;
-    color: #111;
+    color: #333;
     margin-bottom: 10px;
 }
 
@@ -372,7 +372,7 @@ a:hover {
 
 .course-article h3 {
     font-size: 1.2rem;
-    color: #111;
+    color: #333;
     margin: 30px 0 15px 0;
 }
 
