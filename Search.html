@@ -1,21 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Search</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search | Loch SUP</title>
   <link href="pagefind/pagefind-ui.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <main>
+
+    <!-- Thin Black Header & Navigation -->
+    <header class="site-header">
+        <div class="container header-flex">
+            <div class="logo">
+                <a href="index.html">Loch SUP</a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="learn.html">Learn</a></li>
+                    <li><a href="improve.html">Improve</a></li>
+                    <li><a href="race.html">Race</a></li>
+                    <li><a href="blog.html">Performance Blog</a></li>
+                    <li><a href="book.html">The Training Book</a></li>
+                    <li><a href="search.html" class="active">Search</a></li>
+                </ul>
+            </nav> 
+        </div>
+    </header>
+
+    <!-- Course Content Area -->
+    <main class="container course-content">
+        <article class="course-article">
+
+
     <h1>Search Site</h1>
     <div id="search"></div>
-  </main>
 
+
+
+
+
+
+
+<!--
+  <main>
+  </main>
+-->
+  
   <script src="pagefind/pagefind-ui.js"></script>
   <script>
     window.addEventListener('DOMContentLoaded', () => {
       new PagefindUI({ element: "#search", showSubResults: true });
     });
   </script>
+
+<!-- Footer Element -->
+<!-- Footer Element -->
+<!-- Footer Element -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>Loch Sup© 2026 . All rights reserved.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
